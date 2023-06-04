@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="pass.css">
+</head>
+<body>
+    <div class="result">
+        <h1>Your Password</h1>
+        <div class="content">
+     <input type="text" class="code" readonly>
+     <i class="fa fa-trash-o" style="font-size:30px;cursor: pointer;"></i>
+     <div class="copy">
+        <span class="s">Copied</span>
+     <i class="fa fa-copy" style="font-size:30px;cursor: pointer;"></i>
+    </div>
+    </div>
+    </div>
+
+    <div class="main">
+        <form action="" class="form">
+            <div class="lenght">
+        <label for="">Select lenght of your code (Max 25) </label>
+        <input type="range" name="number2" class="number1" min="4" max="25" value="4">
+        <input type="number" name="number1" class="number2" min="4" max="25" value="4">
+       
+        </div>
+        <form action="" class="checkf">
+        <div class="check">
+        <label for="">LowerCase</label>
+        <input type="checkbox" name="lower" >
+    </div>
+     <div class="check">
+        <label for="">UpperCase</label>
+        <input type="checkbox" name="upper" >
+    </div>
+    <div class="check">
+        <label for="">Symbols</label>
+        <input type="checkbox" name="symbol">
+    </div>
+    <div class="check">
+        <label for="">Numbers</label>
+        <input type="checkbox" name="number">
+    </div>
+</form>
+       
+
+    </form>
+    </div>
+
+    <div class="gen">
+   <button class="genb">Generoter</button>
+    </div>
+
+    <script src="pass.js"></script>
+</body>
+</html>
